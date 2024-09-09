@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5e7e9; /* Soft light gray-blue for the background */
+    background-size: cover;
+    background-position: center;
+    color: #2c3e50; /* Dark muted blue-gray for text for easy readability */
+    height: fit-content;
+}
+
+nav {
+    background-color: #aab7c4; /* Calm blue-gray for navigation */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #2c3e50; /* Dark muted text color */
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+nav ul li a:hover {
+    background-color: #7f8c8d; /* Slightly darker gray-blue on hover */
+    border-radius: 4px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #2c3e50; /* Darker blue-gray */
+    text-shadow: 1px 1px 3px #7f8c8d; /* Softer shadow effect */
+}
+
+section {
+    padding: 20px;
+    background-color: #d5dbdb; /* Light neutral color for sections */
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Softer shadow for a lighter feel */
+    align-self: auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    section {
+        width: 80%;
+    }
+}
+
+table, td {
+    border: 1px solid #aab7c4; /* Soft border for tables */
+    border-collapse: collapse;
+    padding: 8px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #d5dbdb; /* Same light neutral color for table background */
+}
+
+button {
+    margin-bottom: 10px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #aab7c4; /* Calming blue-gray button */
+    color: #2c3e50; /* Darker text color for contrast */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+}
+
+button:hover {
+    background-color: #95a5a6; /* Slightly darker gray on hover */
+}
+
+td {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+.centre {
+    text-align: center !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+.left {
+    text-align: left !important;
+}
+
+/* Default state of the link */
+a {
+    color: #34495e; /* Calm dark blue-gray */
+    text-decoration: none;
+}
+
+/* Visited state of the link */
+a:visited {
+    color: #34495e;
+}
+
+/* Hover state of the link */
+a:hover {
+    color: #7f8c8d; /* Softer hover color */
+    text-decoration: underline;
+}
+
+/* Active state of the link */
+a:active {
+    color: #95a5a6; /* Muted gray on active */
+}
+
+footer{
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    background-color: #aab7c4; /* Calm blue-gray for navigation */
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    transform: translate(-50%, -50%);
+    margin: 0;
+
+}
